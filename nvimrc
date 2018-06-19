@@ -8,9 +8,9 @@ set showcmd " show mode
 set cursorline " highlight the current line
 
 set expandtab
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 
 set splitbelow " splitting a window will put it below
 set splitright " splitting a window will put it right
