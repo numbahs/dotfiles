@@ -1,6 +1,7 @@
 [user]
 	email = panyba@gmail.com
-    name = albert tang
+  name = albert tang
 
 [core]
     excludesfile = ~/.gitignore
+	editor = vim
