@@ -1,22 +1,24 @@
 source ~/dotfiles/antigen/antigen.zsh
 antigen use oh-my-zsh
 
-antigen bundle git
-antigen bundle heroku
-antigen bundle pip
-antigen bundle lein
-antigen bundle command-not-found
+antigen bundle <<EOBUNDLES
+  heroku
+  pip
+  lein
+  command-not-found
 
-antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle zsh-users/zsh-completions
-antigen bundle zsh-users/zsh-autosuggestions
+  zsh-users/zsh-syntax-highlighting
+  zsh-users/zsh-completions
+  zsh-users/zsh-autosuggestions
+
+EOBUNDLES
 
 antigen theme agnoster
 
 antigen apply
 # Specify Plugins
-autoload -U compinit && compinit
 
+alias lab='function _lab(){ ssh "atang@$1.srcit.stevens-tech.edu" };_lab'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -28,8 +30,6 @@ export NVM_DIR="$HOME/.nvm"
 prompt_dir() {
     prompt_segment blue black "%3~%<<"
 }
-
-source ~/.env
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
