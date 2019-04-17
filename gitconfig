@@ -1,7 +1,7 @@
 [user]
-	email = panyba@gmail.com
+  email = panyba@gmail.com
   name = albert tang
 
 [core]
-    excludesfile = ~/.gitignore
-	editor = vim
+  excludesfile = ~/.gitignore
+  editor = vim
