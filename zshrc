@@ -1,17 +1,14 @@
 source ~/dotfiles/antigen/antigen.zsh
 antigen use oh-my-zsh
 
-antigen bundle <<EOBUNDLES
-  heroku
-  pip
-  lein
-  command-not-found
-
-  zsh-users/zsh-syntax-highlighting
-  zsh-users/zsh-completions
-  zsh-users/zsh-autosuggestions
-
-EOBUNDLES
+antigen bundle git
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle heroku
+antigen bundle pip
+antigen bundle lein
+antigen bundle command-not-found
+antigen bundle zsh-users/zsh-completions
+antigen bundle zsh-users/zsh-autosuggestions
 
 antigen theme agnoster
 
