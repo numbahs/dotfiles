@@ -7,4 +7,4 @@
   editor = vim
 
 [submodule]
-  recourse = true
+  recurse = true
