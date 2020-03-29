@@ -7,7 +7,7 @@ ln -s ~/dotfiles/gitignore ~/.gitignore
 ln -s ~/dotfiles/zshenv ~/.zshenv
 ```
 
-Install [Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim "Neovim git link")
+Install [Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim "Neovim git link")&nbsp;
 Install [Neovim Plug](https://github.com/junegunn/vim-plug "Neovim Plugin Manager")
 
 ```
