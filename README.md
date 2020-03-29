@@ -5,11 +5,13 @@ ln -s ~/dotfiles/zshrc ~/.zshrc
 ln -s ~/dotfiles/gitconfig ~/.gitconfig
 ln -s ~/dotfiles/gitignore ~/.gitignore
 ln -s ~/dotfiles/zshenv ~/.zshenv
+```
 
 Install [Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim "Neovim git link")
 Install [Neovim Plug](https://github.com/junegunn/vim-plug "Neovim Plugin Manager")
-ln -s ~/dotfiles/nvimrc ~/.config/nvim/init.vim
 
+```
+ln -s ~/dotfiles/nvimrc ~/.config/nvim/init.vim
 nvim
 :PlugInstall (let it download)
 :q
